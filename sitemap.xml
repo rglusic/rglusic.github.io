@@ -3,12 +3,17 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://partialoff.com/blog/aps_2021/</loc>
-    <lastmod>2021-03-02T00:07:15-06:00</lastmod>
+    <loc>https://partialoff.com/</loc>
+    <lastmod>2021-04-21T20:12:54-05:00</lastmod>
   </url>
   
   <url>
-    <loc>https://partialoff.com/</loc>
+    <loc>https://partialoff.com/blog/parkside_2021/</loc>
+    <lastmod>2021-04-21T20:12:54-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://partialoff.com/blog/aps_2021/</loc>
     <lastmod>2021-03-02T00:07:15-06:00</lastmod>
   </url>
   
