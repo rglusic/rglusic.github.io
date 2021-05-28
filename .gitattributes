@@ -1,2 +1,5 @@
 fonts/**    linguist-generated=true
 fonts/**     -diff -merge
+img/PHYS495-Senior-Seminar.mp4 filter=lfs diff=lfs merge=lfs -text
+img/*.mp4 filter=lfs diff=lfs merge=lfs -text
+*.mp4 filter=lfs diff=lfs merge=lfs -text
