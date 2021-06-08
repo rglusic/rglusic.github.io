@@ -1,5 +1,2 @@
 fonts/**    linguist-generated=true
 fonts/**     -diff -merge
-img/*.mp4 filter=lfs diff=lfs merge=lfs -text
-img/RyanGlusic-Parkside-Showcase-2021.mp4 filter=lfs diff=lfs merge=lfs -text
-img/PHYS495-Senior-Seminar.mp4 filter=lfs diff=lfs merge=lfs -text
