@@ -29,3 +29,5 @@
 @media(max-width:760px){.information-field{margin:0 -24px -24px}.wave-toolbar{padding:12px 20px 0;gap:10px}.wave-toolbar>.mono{font-size:8px}.wave-control{min-height:44px;padding:10px;font-size:8px}.wave-stage{height:170px}.information-field figcaption{padding:2px 20px 17px;font-size:8px}}
 @media(max-width:380px){.information-field{margin:0 -20px -20px}.wave-toolbar{padding-left:16px;padding-right:16px}.wave-toolbar>.mono{font-size:7px;letter-spacing:.04em}.wave-stage{height:160px}.information-field figcaption{padding-left:16px}}
 @media print{.information-field{display:none}}
+
+@media(max-width:760px){html:not(.has-js) .header-inner{height:auto;min-height:79px;flex-wrap:wrap;gap:12px;padding-top:17px;padding-bottom:17px}html:not(.has-js) .nav{flex-wrap:wrap}}
