@@ -31,3 +31,12 @@
 @media print{.information-field{display:none}}
 
 @media(max-width:760px){html:not(.has-js) .header-inner{height:auto;min-height:79px;flex-wrap:wrap;gap:12px;padding-top:17px;padding-bottom:17px}html:not(.has-js) .nav{flex-wrap:wrap}}
+
+/* Current engineering work and the first-screen resume link. */
+.hero-actions{flex-wrap:wrap;gap:16px}.button-secondary{background:transparent;color:var(--ink);border:1px solid #657056}.button-secondary:hover{background:#242d1c;color:var(--accent);border-color:var(--accent)}
+.featured-copy .featured-motivation{margin-top:19px;padding-top:18px;border-top:1px solid #48583a;font-size:13px!important;color:#b0bea2!important}
+.infrastructure-work{padding:30px 0 34px;border-bottom:1px solid var(--line)}.infrastructure-heading{display:flex;flex-direction:column;gap:13px;margin-bottom:25px}.infrastructure-heading>.mono{font-size:9px;color:#9fae91}.infrastructure-heading h3{font-size:27px;letter-spacing:-1px;line-height:1.2;font-weight:500}.infrastructure-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:25px}.infrastructure-grid article+article{border-left:1px solid var(--line);padding-left:25px}.infrastructure-grid h4{font-size:15px;font-weight:500;margin:0 0 10px;color:#d7decc}.infrastructure-grid p{font-size:12px;color:var(--muted);line-height:1.75}
+@media(max-width:1000px){.infrastructure-grid{grid-template-columns:repeat(2,1fr);gap:24px}.infrastructure-grid article+article{padding-left:0;border-left:0}.infrastructure-grid article:nth-child(even){border-left:1px solid var(--line);padding-left:24px}}
+@media(max-width:760px){.hero-actions{gap:12px}.hero-actions .button{gap:18px;padding:15px}.infrastructure-work{padding:23px 0 28px}.infrastructure-heading h3{font-size:25px}.infrastructure-grid{gap:22px}.infrastructure-grid h4{font-size:14px}.infrastructure-grid p{font-size:12px}.infrastructure-grid article:nth-child(even){padding-left:19px}}
+@media(max-width:380px){.hero-actions .button{font-size:11px;gap:13px;padding:14px 12px}.infrastructure-grid{grid-template-columns:1fr;gap:19px}.infrastructure-grid article:nth-child(even){border-left:0;padding-left:0}.infrastructure-grid article+article{border-top:1px solid var(--line);padding-top:18px}}
+@media print{.infrastructure-grid h4,.infrastructure-grid p{color:#333}.infrastructure-work{break-inside:avoid}}
